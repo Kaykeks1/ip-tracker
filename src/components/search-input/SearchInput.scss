@@ -1,0 +1,30 @@
+.search-input {
+  display: flex;
+  position: relative;
+  input {
+    width: 555px;
+    background: #FFF;
+    padding-left: 24px;
+    font-size: 18px;
+    height: 58px;
+    border-radius: 15px;
+    border: 0;
+  }
+  button {
+    position: absolute;
+    right: 0;
+    width: 58px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: black;
+    cursor: pointer;
+    border: 0;
+  }
+  @media (max-width: 700px) {
+    width: 80%;
+    input {
+      width: 100%;
+    }
+  }
+}
